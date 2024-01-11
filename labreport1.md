@@ -8,27 +8,27 @@
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 2. Using `cd` with a path to a *directory* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 3. Using `cd` with a path to a *file* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
 
 ## The `ls` command
 
@@ -37,27 +37,27 @@
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 2. Using `ls` with a path to a *directory* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 3. Using `ls` with a path to a *file* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
 
 ## The `cat` command
 
@@ -66,24 +66,24 @@
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 2. Using `cat` with a path to a *directory* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
    
 3. Using `cat` with a path to a *file* as an argument.
    Code:
    ```
    code
    ```
-   Working directory:
-   Output:
-   Error or not:
+   Working directory:  
+   Output:  
+   Error or not:  
