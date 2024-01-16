@@ -1,5 +1,5 @@
 # Lab Report 1
-> Last Edited: 11 January, 2024
+> Last Edited: 16 January, 2024
 
 ## The `cd` command
 
@@ -94,26 +94,51 @@
 1. Using `cat` with no arguments.  
    Code:
    ```
-   code
+   [user@sahara ~]$ pwd
+   /home
+   [user@sahara ~]$ cat
+   hello
+   hello
+   second line
+   second line
    ```
-   Working directory:  
-   Output:  
-   Error or not:  
+   Working directory: `/home` but after passing the `cat` command, there seems to be *no* working directory  
+   Output: The terminal just prints the argument passed into it in the next line. 
+   Error or not: While there is no formal 'error' message in the output, the terminal merely repeats whatever is typed into it; the commands we have used thus far do not work and are repeated.  
    
 2. Using `cat` with a path to a *directory* as an argument.  
    Code:
    ```
-   code
+   [user@sahara ~]$ pwd
+   /home
+   [user@sahara ~]$ cat lecture1/
+   cat: lecture1/: Is a directory
+   [user@sahara ~]$ pwd
+   /home
    ```
-   Working directory:  
-   Output:  
-   Error or not:  
+   Working directory: `/home` remains unchanged  
+   Output: Nothing is concatenated  
+   Error or not: Error; the `cat` command is supposed to read from files and print the output in the terminal. Since the argument passed here is a directory, the terminal can't read inside it because it is not a file.  
    
 3. Using `cat` with a path to a *file* as an argument.  
    Code:
    ```
-   code
+   [user@sahara ~/lecture1]$ pwd
+   /home/lecture1
+   [user@sahara ~/lecture1]$ cat Hello.java
+   import java.io.IOException;
+   import java.nio.charset.StandardCharsets;
+   import java.nio.file.Files;
+   import java.nio.file.Path;
+   
+   public class Hello {
+   public static void main(String[] args) throws IOException {
+   String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+   System.out.println(content);
+   }
+   }[user@sahara ~/lecture1]$ pwd
+   /home/lecture1
    ```
-   Working directory:  
-   Output:  
-   Error or not:  
+   Working directory: `/home/lecture1` remains unchanged  
+   Output: The contents of the Hello.java file are displayed in the terminal as the output  
+   Error or not: No error!  
