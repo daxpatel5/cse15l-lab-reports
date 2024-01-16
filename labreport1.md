@@ -4,7 +4,7 @@
 ## The `cd` command
 
 1. Using `cd` with no arguments.  
-   Code:
+   
    ```
    [user@sahara ~/lecture1]$ pwd
    /home/lecture1
@@ -17,7 +17,7 @@
    Error or not: No error!  
    
 2. Using `cd` with a path to a *directory* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~]$ pwd
    /home
@@ -30,7 +30,7 @@
    Error or not: No error!  
    
 3. Using `cd` with a path to a *file* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~/lecture1]$ pwd
    /home/lecture1
@@ -46,7 +46,7 @@
 ## The `ls` command
 
 1. Using `ls` with no arguments.  
-   Code:
+   
    ```
    [user@sahara ~]$ pwd
    /home
@@ -60,7 +60,7 @@
    Error or not: No error!  
    
 2. Using `ls` with a path to a *directory* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~]$ pwd
    /home
@@ -74,7 +74,7 @@
    Error or not: No error!  
    
 3. Using `ls` with a path to a *file* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~/lecture1]$ pwd
    /home/lecture1
@@ -92,7 +92,7 @@
 ## The `cat` command
 
 1. Using `cat` with no arguments.  
-   Code:
+   
    ```
    [user@sahara ~]$ pwd
    /home
@@ -103,11 +103,11 @@
    second line
    ```
    Working directory: `/home` but after passing the `cat` command, there seems to be *no* working directory  
-   Output: The terminal just prints the argument passed into it in the next line. 
+   Output: The terminal just prints the argument passed into it in the next line.  
    Error or not: While there is no formal 'error' message in the output, the terminal merely repeats whatever is typed into it; the commands we have used thus far do not work and are repeated.  
    
 2. Using `cat` with a path to a *directory* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~]$ pwd
    /home
@@ -121,7 +121,7 @@
    Error or not: Error; the `cat` command is supposed to read from files and print the output in the terminal. Since the argument passed here is a directory, the terminal can't read inside it because it is not a file.  
    
 3. Using `cat` with a path to a *file* as an argument.  
-   Code:
+   
    ```
    [user@sahara ~/lecture1]$ pwd
    /home/lecture1
