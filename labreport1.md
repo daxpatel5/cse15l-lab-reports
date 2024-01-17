@@ -1,5 +1,6 @@
 # Lab Report 1
 > Last Edited: 16 January, 2024
+> Dax Patel
 
 ## The `cd` command
 
@@ -141,4 +142,5 @@
    ```
    Working directory: `/home/lecture1` remains unchanged  
    Output: The contents of the Hello.java file are displayed in the terminal as the output  
-   Error or not: No error!  
+   Error or not: No error!
+>Dax Patel
