@@ -22,12 +22,12 @@ Change of values and why
 
 ## Part 2
 Showing with `ls`  
--The absolute path to the private key for your SSH key for logging into ieng6:  
->Screenshot goes here
--The absolute path to the public key for your SSH key for logging into ieng6:  
->Screenshot goes here
--A terminal interaction where you log into your ieng6 account without being asked for a password    
->Screenshot goes here
+- The absolute path to the private key for your SSH key for logging into ieng6:  
+> Screenshot goes here
+- The absolute path to the public key for your SSH key for logging into ieng6:  
+> Screenshot goes here
+- A terminal interaction where you log into your ieng6 account without being asked for a password    
+> Screenshot goes here
 
 
 ## Part 3
