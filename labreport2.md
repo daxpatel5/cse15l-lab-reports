@@ -60,15 +60,17 @@ Methods called:
 Arguments/Values of variables
 Change of values and why
 
+## My files randomly stopped working last minute! I will visit tutor hours and get it fixed!
+
 
 ## Part 2
 Showing with `ls`  
-- The absolute path to the private key for your SSH key for logging into ieng6:  
-> Screenshot goes here
-- The absolute path to the public key for your SSH key for logging into ieng6:  
-> Screenshot goes here
+- The absolute path to the private key for your SSH key for logging into ieng6:
+  <img width="738" alt="Screenshot 2024-01-30 at 11 35 51 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/9b73beef-3811-4177-8597-8d466ccfaa27">  
+- The absolute path to the public key for your SSH key for logging into ieng6:
+  <img width="741" alt="Screenshot 2024-01-30 at 11 18 58 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/61f46a59-2f45-4f77-ac75-02c782684743">  
 - A terminal interaction where you log into your ieng6 account without being asked for a password    
-> Screenshot goes here
+<img width="701" alt="Screenshot 2024-01-30 at 11 52 01 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/92c7a953-b0e9-428a-ac1c-5412d59a673c">
 
 
 ## Part 3
