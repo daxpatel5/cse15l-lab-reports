@@ -49,13 +49,13 @@ class ChatServer implements URLHandler {
 
 ```
 Example 1 of `/add-message`  
-> Screenshot goes here
+> Screenshot goes here  
 Methods called:
 Arguments/Values of variables
 Change of values and why
 
 Example 2 of `/add-message`  
-> Screenshot goes here
+> Screenshot goes here  
 Methods called:
 Arguments/Values of variables
 Change of values and why
