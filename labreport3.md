@@ -1,8 +1,8 @@
 # Lab Report 3
-> Last Edited: 12 February, 2024  
+> Last Edited: 13 February, 2024  
 > Dax Patel
 
-## Part 1  
+## Part 1 - Bugs  
 
 ## The bug from lab of Week 4:  
 The `static int[] reversed(int[] arr)` method  
@@ -30,7 +30,7 @@ The tests for the method:
 It is important to note that `input1` here does NOT induce failure and if it were the only test in our tester file for this particular method, it would wrongfully pass!  
 
 Screenshot testing for just `input1`:  
-<img width="754" alt="Screenshot 2024-02-13 at 12 18 53 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/9f16232e-437f-4127-8ae9-ccd339156841">
+<img width="754" alt="Screenshot 2024-02-13 at 12 18 53 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/9f16232e-437f-4127-8ae9-ccd339156841">  
 Note that the other test in the screenshot refers to the test we wrote for another method in the same file.  
 
 However, if we add a test for another input called `input2`, our resultant tester method becomes:  
@@ -75,8 +75,35 @@ static int[] reversed(int[] arr) {
 ```
 
 Screenshot for running our tester now:  
-<img width="794" alt="Screenshot 2024-02-13 at 12 34 04 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/8aedd4a3-4831-4ace-bc97-71a267394f1d">
+<img width="794" alt="Screenshot 2024-02-13 at 12 34 04 PM" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/8aedd4a3-4831-4ace-bc97-71a267394f1d">  
+The code now works because we have fixed both the underlying issues wiht the original implementation, namely the wrong assignment of array elements and the wrong return variable!  
+
+## Part 2 - Researching Commands  
+
+## Command of choice: `find`
+
+Alternative 1: `alt`  
+Usage 1: ss goes here! 
+Usage 2: ss goes here!  
+Source:  
+
+Alternative 2: `alt`  
+Usage 1: ss goes here!  
+Usage 2: ss goes here!  
+Source:  
+
+Alternative 3: `alt`  
+Usage 1: ss goes here!  
+Usage 2: ss goes here!  
+Source:  
+
+Alternative 4: `alt`  
+Usage 1: ss goes here!  
+Usage 2: ss goes here!  
+Source:  
 
 
->Dax Patel
+
+
+>Dax Patel | 13 Feb
 
