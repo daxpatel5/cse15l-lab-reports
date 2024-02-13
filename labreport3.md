@@ -80,27 +80,35 @@ The code now works because we have fixed both the underlying issues wiht the ori
 
 ## Part 2 - Researching Commands  
 
-## Command of choice: `find`
+## Command of choice: `find`  
 
-Alternative 1: `alt`  
-Usage 1: ss goes here! 
-Usage 2: ss goes here!  
-Source:  
+After researching a bit about the `find` command I found (pun intended!) that it is probably the best command to use in the specific use cases that might be useful in the future. There are 2 alternatives to the command itself:
+1. `locate` which is a "simpler" command to run but only works on pre-installed databases and cannot peruse through file structures like we want.
+   Source: [Link](https://unix.stackexchange.com/questions/13496/alternative-to-find)  
+2.  `fd` which is a "more intuitive" alternative to `find` but it does require separate installation and cannot work on devices that do not have it installed.
+   Source: [Link](https://opensource.com/article/18/6/friendly-alternative-find)
 
-Alternative 2: `alt`  
-Usage 1: ss goes here!  
-Usage 2: ss goes here!  
-Source:  
+So for the purposes of this lab report, I will be exploring more interesting to use the same old `find` command!  
 
-Alternative 3: `alt`  
-Usage 1: ss goes here!  
-Usage 2: ss goes here!  
-Source:  
+Usage 1: `find`  
+Example 1: ss goes here! 
+Example 2: ss goes here!  
+Source: [Link]()  
 
-Alternative 4: `alt`  
-Usage 1: ss goes here!  
-Usage 2: ss goes here!  
-Source:  
+Usage 2: `find`  
+Example 1: ss goes here! 
+Example 2: ss goes here!  
+Source: [Link]()  
+
+Usage 3: `find`  
+Example 1: ss goes here! 
+Example 2: ss goes here!  
+Source: [Link]()  
+
+Usage 4: `find`  
+Example 1: ss goes here! 
+Example 2: ss goes here!  
+Source: [Link]()  
 
 
 
