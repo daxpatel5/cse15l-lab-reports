@@ -147,22 +147,77 @@ daxpatel@Daxs-MacBook-Pro technical % find /Users/daxpatel/Documents/GitHub/cse1
 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/biomed
 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report
 ```
-Source: [Source: RedHat](https://www.redhat.com/sysadmin/linux-find-command)  
+[Source: RedHat](https://www.redhat.com/sysadmin/linux-find-command)  
 
-Usage 2: `find`  
-Example 1: ss goes here! 
-Example 2: ss goes here!  
-Source: [Link]()  
+Usage 2: `find <dir> -maxdepth <depth> -type d`  
+This command prnts out only the directories that are one step inside the given dir and nothing deeper, effectively limiting the "depth" of the search.  
+Example 1:  
+```
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch -maxdepth 1 -type d
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/lib
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/.git
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+```
+Example 2:  
+```
+daxpatel@Daxs-MacBook-Pro technical % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+daxpatel@Daxs-MacBook-Pro technical % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical -maxdepth 1 -type d
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/government
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/plos
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/biomed
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report
+```
+[Source: RedHat](https://www.redhat.com/sysadmin/linux-find-command)  
 
-Usage 3: `find`  
-Example 1: ss goes here! 
-Example 2: ss goes here!  
-Source: [Link]()  
+Usage 3: `find <dir> -type f -empty`  
+This command prints out all empty files within the given directory. Since our given directories do not contain any empty files, the command prints nothing!  
+Example 1:  
+```
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch -type f -empty
+```
+Example 2:  
+```
+daxpatel@Daxs-MacBook-Pro technical % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+daxpatel@Daxs-MacBook-Pro technical % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical -type f -empty
+```
+[Source: RedHat](https://www.redhat.com/sysadmin/linux-find-command)  
 
-Usage 4: `find`  
-Example 1: ss goes here! 
-Example 2: ss goes here!  
-Source: [Link]()  
+Usage 4: `find <dir> -ls`  
+This command lists all the contents of a directory recursively, meaning it also descends into every subdirectory within the target and prints out all the content with great detail.  
+Example 1:  
+```
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch
+daxpatel@Daxs-MacBook-Pro cse15l-docsearch % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch -ls
+9413172        0 drwxr-xr-x   12 daxpatel         staff                 384 Feb 13 11:02 /Users/daxpatel/Documents/GitHub/cse15l-docsearch
+9431310      112 -rw-r--r--    1 daxpatel         staff               54468 Feb  8 14:59 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/find-results.txt
+*<--1420 Lines of Output ommitted for succintness-->*
+9413433      256 -rwxr-xr-x    1 daxpatel         staff              127587 Feb  8 14:11 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report/chapter-12.txt
+9413431       96 -rwxr-xr-x    1 daxpatel         staff               47307 Feb  8 14:11 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report/chapter-10.txt
+9413432      144 -rwxr-xr-x    1 daxpatel         staff               71151 Feb  8 14:11 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report/chapter-11.txt
+9436332       32 -rw-r--r--    1 daxpatel         staff               12691 Feb  8 15:18 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/plos-sizes.txt
+```
+Example 2:  
+```
+daxpatel@Daxs-MacBook-Pro technical % pwd
+/Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+daxpatel@Daxs-MacBook-Pro technical % find /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical -ls
+9413428        0 drwxr-xr-x   10 daxpatel         staff                 320 Feb  8 15:22 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical
+9436938        8 -rw-r--r--    1 daxpatel         staff                2040 Feb  8 15:22 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/biomed-count.txt
+9414285        0 drwxr-xr-x    8 daxpatel         staff                 256 Feb  8 14:14 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/government
+*<--1400 lines of Output ommitted for succintness-->*
+9413432      144 -rwxr-xr-x    1 daxpatel         staff               71151 Feb  8 14:11 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/911report/chapter-11.txt
+9436332       32 -rw-r--r--    1 daxpatel         staff               12691 Feb  8 15:18 /Users/daxpatel/Documents/GitHub/cse15l-docsearch/technical/plos-sizes.txt
+```
+[Source: RedHat](https://www.redhat.com/sysadmin/linux-find-command)  
 
 
 
