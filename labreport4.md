@@ -24,15 +24,18 @@ Above is the code in ListExamples.java before we edit it.
 Keys pressed: `j (44 times) l (13 times) i <delete> 2 <esc> :wq! <enter>`  
 Now this is the code after the edit:  
 <img width="908" alt="7 2" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/b0001b26-6599-40b5-8c8c-b0c08b748ac1">  
+Now that our code has been edited succesfully, we will compile it again and run the bash script once again to verify that all the tests pass!  
 
 ## Step 8: Running the tests again to check success  
 Keys pressed: `javac <space> ListExamples.java <enter> bash <space> test.sh <enter>`  
 Terminal output:  
 <img width="584" alt="8" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/6598c5d1-71ed-4a6d-b981-cc85f7b0fe38">  
+Now that we have established that the code works as intended and that there are no errors, we can go ahead and commit this change directly to our GitHub repository!  
 
 ## Step 9: Committing and pushing changes to my GitHub
 Keys pressed: `git <space> commit <space> ListExamples.java <enter> <*My commit message*> <esc> :wq! <enter>`  
 <img width="660" alt="9" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/7e57251a-20f7-4faf-904f-c06f610e9fec">  
+After this commit, the updated version of the file should be available on our repository and our work here is effectively done!  
 
 
 >Dax Patel | 27 Feb
