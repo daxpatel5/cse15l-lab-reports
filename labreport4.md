@@ -29,7 +29,7 @@ Now that our code has been edited succesfully, we will run the bash script once 
 ## Step 8: Running the tests again to check success  
 Keys pressed: `bash <space> test.sh <enter>`  
 Terminal output:  
- <img width="527" alt="8 updated" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/0a933ba1-f0ba-4f7a-b0c2-1f6245960fc0">
+ <img width="527" alt="8 updated" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/0a933ba1-f0ba-4f7a-b0c2-1f6245960fc0">  
 Now that we have established that the code works as intended and that there are no errors, we can go ahead and commit this change directly to our GitHub repository!  
 
 ## Step 9: Committing and pushing changes to my GitHub
