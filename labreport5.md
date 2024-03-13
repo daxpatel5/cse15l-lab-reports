@@ -13,7 +13,7 @@ and this is the result after I edit the file in Vim editor and then run it again
 Any help would be much appreciated!  
 -Student Dax  
 
-**TA's reply:**
+**TA's reply:**  
 Hi Student Dax,  
 I see you are having problems fixing your java file. Could you run me through the process of you fixing the bugs?  
 -TA Dax  
