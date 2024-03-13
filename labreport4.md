@@ -1,9 +1,9 @@
 # Lab Report 4
-> Last Edited: 27 February, 2024  
+> Last Edited: 12 March, 2024  
 > Dax Patel
 
 ## Step 4: Logging into ieng6  
-![4](https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/01902755-fa2d-41b3-9876-1a03dd0fa4af)  
+<img width="1008" alt="4 updated" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/178cfb2d-da66-4153-bd3f-28b1ae0f9f0d">
 Keys pressed: `ssh <space> dap014@ieng6.ucsd.edu <enter> <*MyPassword*> <enter>`  
 I have now logged into my remote server based in the CSE basement on my MacBook and can now go ahead with the rest of the lab report!  
 
@@ -29,13 +29,13 @@ Now that our code has been edited succesfully, we will compile it again and run 
 ## Step 8: Running the tests again to check success  
 Keys pressed: `javac <space> ListExamples.java <enter> bash <space> test.sh <enter>`  
 Terminal output:  
-<img width="584" alt="8" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/6598c5d1-71ed-4a6d-b981-cc85f7b0fe38">  
+ <img width="527" alt="8 updated" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/0a933ba1-f0ba-4f7a-b0c2-1f6245960fc0">
 Now that we have established that the code works as intended and that there are no errors, we can go ahead and commit this change directly to our GitHub repository!  
 
 ## Step 9: Committing and pushing changes to my GitHub
-Keys pressed: `git <space> commit <space> ListExamples.java <enter> <*My commit message*> <esc> :wq! <enter>`  
-<img width="660" alt="9" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/7e57251a-20f7-4faf-904f-c06f610e9fec">  
+Keys pressed: `git <space> add <space> ListExamples <enter> git <space> commit <space> -m <space> "<*My commit message*>" <enter> git <space> push <space> origin <space> main <enter>`  
+<img width="903" alt="9 final" src="https://github.com/daxpatel5/cse15l-lab-reports/assets/83134389/95d1934f-d7fd-4312-aeb5-3cc73aa8da71">  
 After this commit, the updated version of the file should be available on our repository and our work here is effectively done!  
 
 
->Dax Patel | 27 Feb
+>Dax Patel | 12 March
